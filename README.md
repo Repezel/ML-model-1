@@ -1,6 +1,7 @@
 House Price Prediction ML Model
 
-This repository contains a machine learning model that predicts house prices using the Boston Housing Dataset (Boston.csv). The model uses features like the number of rooms, crime rate, property tax, and other housing attributes to estimate the price of houses in Boston.
+This repository contains a machine learning model that predicts house prices using the Boston Housing Dataset (Boston.csv).
+The model uses features like the number of rooms, crime rate, property tax, and other housing attributes to estimate the price of houses in Boston.
 
 Table of Contents
 
@@ -10,19 +11,12 @@ Features
 
 Model
 
-Installation
-
-Usage
-
 Evaluation
-
-Contributing
-
-License
 
 Dataset
 
-The dataset used is Boston.csv, which contains housing data collected from Boston, USA. The dataset includes features related to the properties, environment, and demographics of the area.
+The dataset used is Boston.csv, which contains housing data collected from Boston, USA.
+The dataset includes features related to the properties, environment, and demographics of the area.
 
 Example of columns:
 
@@ -62,13 +56,15 @@ Linear Regression – baseline model to predict house prices.
 
 Random Forest Regressor – ensemble model for improved accuracy and higher R² score.
 
-Libraries Used
+Libraries Used:
 
 pandas – Data manipulation
 
 numpy – Numerical computations
 
 scikit-learn – ML algorithms and evaluation
+
+matplotlib / seaborn – Data visualization
 
 Evaluation
 
@@ -81,5 +77,3 @@ Root Mean Squared Error (RMSE)
 R² Score
 
 The Random Forest Regressor usually provides a higher R² score than Linear Regression due to its ensemble nature.
-
-matplotlib / seaborn – Data visualization
